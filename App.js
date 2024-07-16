@@ -1,11 +1,5 @@
-/**
- * <div id="parent">
- *      <div id="child">
- *          <h1>Hello world from 3 layers nested h1</h1>
- *          <h2>I am a siblling</h2>
- *      </div>
- * </div>
- */
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 const parent = React.createElement(
     "div",
@@ -18,7 +12,7 @@ const parent = React.createElement(
                 React.createElement(
                     "h1",
                     {},
-                    "Hello world from 3 layers nested h1"
+                    "This is namaste react 🚀"
                 ),
                 React.createElement(
                     "h2",
